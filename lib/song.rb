@@ -33,7 +33,7 @@ class Song
   end
 
   def add_song(song)
-    if !song.artist = self
+    if !song.artist
   end
 
 end
