@@ -28,4 +28,7 @@ class Genre
     new_song
   end
 
+  def artists
+  end
+
 end
