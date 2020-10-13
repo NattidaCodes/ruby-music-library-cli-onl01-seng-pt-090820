@@ -38,11 +38,4 @@ class Song
     @genre = genre
   end
 
-  def add_song(song)
-    if !song.artist
-      song.artist = self
-      self.songs << song
-    end
-  end
-
 end
