@@ -28,6 +28,11 @@ class Artist
     new_song
   end
 
-  
+  def add_song(song)
+    if !song.artist
+      song.artist = self
+      self.songs << song
+    end
+  end
 
 end
