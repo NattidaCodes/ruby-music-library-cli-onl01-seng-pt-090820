@@ -55,6 +55,7 @@ class Song
     song_name = filename.split(" - ")[1]
     song = self.new(song_name)
     song.artist = Artist.new(filename.split(" - ")[0])
+    song.genre = Genre.new(filename.split(" - ")[2]).strip
     song
   end 
 
