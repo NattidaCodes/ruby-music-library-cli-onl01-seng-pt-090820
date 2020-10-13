@@ -33,7 +33,7 @@ class Artist
       song.artist = self
       self.songs << song
     elsif
-      songs.include?(song.artist)
+      songs.include?(song)
       self.songs << song
     end
   end
