@@ -11,6 +11,7 @@ class Artist
 
   def initialize(name)
     @name = name
+    @songs = []
   end
 
   def save
@@ -26,5 +27,6 @@ class Artist
     new_song.save
     new_song
   end
+
 
 end
