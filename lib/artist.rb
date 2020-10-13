@@ -34,7 +34,7 @@ class Artist
       @songs << song
     elsif
       songs.include?(song)
-
+        @songs << song
     end
   end
 
