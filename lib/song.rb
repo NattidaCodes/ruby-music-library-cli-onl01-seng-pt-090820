@@ -34,6 +34,8 @@ class Song
 
   def add_song(song)
     if !song.artist
+      song.artist = self
+      @songs <<song
     end
   end
 
