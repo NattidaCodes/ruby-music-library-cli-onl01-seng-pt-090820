@@ -1,7 +1,7 @@
 class Genre
 
   attr_accessor :name
-  attr_reader
+  attr_reader :songs
 
   @@all = []
 
@@ -26,5 +26,5 @@ class Genre
     new_song.save
     new_song
   end
-  
+
 end
