@@ -26,4 +26,5 @@ class Genre
     new_song.save
     new_song
   end
+  
 end
