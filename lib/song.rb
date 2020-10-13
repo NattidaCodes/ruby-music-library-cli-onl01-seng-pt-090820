@@ -34,6 +34,7 @@ class Song
 
   def add_song(song)
     if !song.artist
+    end
   end
 
 end
