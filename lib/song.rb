@@ -21,4 +21,7 @@ class Song
       @@all.clear
     end
 
+    def self.create
+    end
+
 end
