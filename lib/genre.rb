@@ -7,7 +7,7 @@ class Genre
 
   def initialize(name)
     @name = name
-    @son
+    @song = song
   end
 
   def self.all
