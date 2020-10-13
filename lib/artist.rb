@@ -32,6 +32,9 @@ class Artist
     if !song.artist
       song.artist = self
       self.songs << song
+    elsif
+      songs.include?(song.artist)
+      @songs << song
     end
   end
 
