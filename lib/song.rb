@@ -39,7 +39,7 @@ class Song
     genre.songs << self unless genre.songs.include?(self)
     # if genre.songs.include?(self)
     #   genre.songs << self
-    end
+    # end
   end
 
 end
