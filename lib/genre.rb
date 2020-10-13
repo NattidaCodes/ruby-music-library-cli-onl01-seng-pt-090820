@@ -5,13 +5,14 @@ class Genre
 
   @@all = []
 
+  def initialize(name)
+    @name = name
+    @son
+  end
+
   def self.all
     @@all
     end
-
-  def initialize(name)
-    @name = name
-  end
 
   def save
     @@all << self
